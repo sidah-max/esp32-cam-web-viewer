@@ -1,0 +1,4 @@
+ESP32-CAM-Browser-Viewer/
+├── ESP32_Cam_WebViewer.ino     # Final source code
+├── README.md                   # Setup instructions
+└── demo.gif                    # (Optional) Live preview animation
