@@ -1,0 +1,27 @@
+# ESP32-CAM Browser Viewer (No Storage)
+
+This project captures real-time JPEG images using ESP32-CAM and streams them directly to a browser. No SD card or image storage required.
+
+## 📦 Hardware
+- ESP32-CAM AI-Thinker Module
+- FTDI USB-to-Serial Adapter
+- Breadboard, jumpers (for flashing)
+
+## 🧰 Software Requirements
+- Arduino IDE (v1.8+)
+- ESP32 Board URL: https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json
+- Board: "AI Thinker ESP32-CAM"
+- Library: Built-in ESP32 Camera library
+
+## ⚙️ How to Use
+1. Open `ESP32_Cam_WebViewer.ino` in Arduino IDE.
+2. Update your Wi-Fi `ssid` and `password`.
+3. Select Board: **AI Thinker ESP32-CAM**
+4. Upload the code using FTDI adapter (GPIO0 to GND for flashing).
+5. Open Serial Monitor.
+6. On success, access: `http://<your-device-ip>/` in browser.
+7. View live image each time page is refreshed.
+
+✅ No SD Card needed  
+✅ Works over Wi-Fi  
+✅ Minimal footprint
